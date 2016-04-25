@@ -72,7 +72,7 @@ textadept.editing.autocompleters.terra = function()
   return #part, list
 end
 
-textadept.editing.api_files.lua = {
+textadept.editing.api_files.terra = {
   _USERHOME..'/modules/terra/api'
 }
 -- Removed:_HOME..'/modules/terra/api',
