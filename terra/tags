@@ -1,0 +1,216 @@
+BSD	_	0;"	F	
+CURSES	_	0;"	F	
+LINUX	_	0;"	F	
+OSX	_	0;"	F	
+WIN32	_	0;"	F	
+_BUFFERS	_	0;"	t	
+_CHARSET	_	0;"	F	
+_G	_	0;"	F	
+_G	_	0;"	m	
+_HOME	_	0;"	F	
+_L	_	0;"	m	
+_RELEASE	_	0;"	F	
+_USERHOME	_	0;"	F	
+_VERSION	_	0;"	F	
+_VIEWS	_	0;"	t	
+math	_	0;"	m	
+abs	_	0;"	f	class:math
+acos	_	0;"	f	class:math
+asin	_	0;"	f	class:math
+atan	_	0;"	f	class:math
+atan2	_	0;"	f	class:math
+ceil	_	0;"	f	class:math
+cos	_	0;"	f	class:math
+cosh	_	0;"	f	class:math
+deg	_	0;"	f	class:math
+exp	_	0;"	f	class:math
+floor	_	0;"	f	class:math
+fmod	_	0;"	f	class:math
+frexp	_	0;"	f	class:math
+huge	_	0;"	F	class:math
+ldexp	_	0;"	f	class:math
+log	_	0;"	f	class:math
+log10	_	0;"	f	class:math
+max	_	0;"	f	class:math
+min	_	0;"	f	class:math
+pi	_	0;"	F	class:math
+pow	_	0;"	f	class:math
+sin	_	0;"	f	class:math
+sinh	_	0;"	f	class:math
+sqrt	_	0;"	f	class:math
+mininteger	_	0;"	F	class:math
+maxinteger	_	0;"	F	class:math
+modf	_	0;"	f	class:math
+rad	_	0;"	f	class:math
+random	_	0;"	f	class:math
+randomseed	_	0;"	f	class:math
+tan	_	0;"	f	class:math
+tanh	_	0;"	f	class:math
+tointeger	_	0;"	f	class:math
+type	_	0;"	f	class:math
+ult	_	0;"	f	class:math
+string	_	0;"	m	
+sub	_	0;"	f	class:string
+upper	_	0;"	f	class:string
+unpack	_	0;"	f	class:string
+byte	_	0;"	f	class:string
+char	_	0;"	f	class:string
+lower	_	0;"	f	class:string
+match	_	0;"	f	class:string
+pack	_	0;"	f	class:string
+packsize	_	0;"	f	class:string
+dump	_	0;"	f	class:string
+find	_	0;"	f	class:string
+format	_	0;"	f	class:string
+gmatch	_	0;"	f	class:string
+iconv	_	0;"	f	class:string
+gsub	_	0;"	f	class:string
+len	_	0;"	f	class:string
+reverse	_	0;"	f	class:string
+rep	_	0;"	f	class:string
+arg	_	0;"	t
+args	_	0;"	m	
+assert	_	0;"	f	
+bit32	_	0;"	m	
+band	_	0;"	f	class:bit32
+bnot	_	0;"	f	class:bit32
+bor	_	0;"	f	class:bit32
+btest	_	0;"	f	class:bit32
+extract	_	0;"	f	class:bit32
+arshift	_	0;"	f	class:bit32
+lrotate	_	0;"	f	class:bit32
+lshift	_	0;"	f	class:bit32
+replace	_	0;"	f	class:bit32
+rrotate	_	0;"	f	class:bit32
+rshift	_	0;"	f	class:bit32
+xor	_	0;"	f	class:bit32
+package	_	0;"	m	
+loaded	_	0;"	F	class:package
+loaders	_	0;"	F	class:package
+loadlib	_	0;"	f	class:package
+path	_	0;"	F	class:package
+preload	_	0;"	F	class:package
+searchers	_	0;"	F	class:package
+searchpath	_	0;"	f	class:package
+seeall	_	0;"	f	class:package
+config	_	0;"	F	class:package
+cpath	_	0;"	F	class:package
+os	_	0;"	m	
+clock	_	0;"	f	class:os
+date	_	0;"	f	class:os
+difftime	_	0;"	f	class:os
+execute	_	0;"	f	class:os
+exit	_	0;"	f	class:os
+getenv	_	0;"	f	class:os
+remove	_	0;"	f	class:os
+rename	_	0;"	f	class:os
+setlocale	_	0;"	f	class:os
+time	_	0;"	f	class:os
+tmpname	_	0;"	f	class:os
+close	_	0;"	f	class:file
+close	_	0;"	f	class:io
+close	_	0;"	f	class:spawn_proc
+char	_	0;"	f	class:utf8
+charpattern	_	0;"	F	class:utf8
+codepoint	_	0;"	f	class:utf8
+codes	_	0;"	f	class:utf8
+collectgarbage	_	0;"	f	
+concat	_	0;"	f	class:table
+coroutine	_	0;"	m	
+isyieldable	_	0;"	f	class:coroutine
+create	_	0;"	f	class:coroutine
+resume	_	0;"	f	class:coroutine
+running	_	0;"	f	class:coroutine
+status	_	0;"	f	class:coroutine
+wrap	_	0;"	f	class:coroutine
+yield	_	0;"	f	class:coroutine
+debug	_	0;"	f	class:debug
+debug	_	0;"	m	
+dofile	_	0;"	f	
+error	_	0;"	f	
+flush	_	0;"	f	class:file
+getfenv	_	0;"	f	
+getfenv	_	0;"	f	class:debug
+gethook	_	0;"	f	class:debug
+getinfo	_	0;"	f	class:debug
+getlocal	_	0;"	f	class:debug
+getmetatable	_	0;"	f	
+getmetatable	_	0;"	f	class:debug
+getregistry	_	0;"	f	class:debug
+getupvalue	_	0;"	f	class:debug
+getuservalue	_	0;"	f	class:debug
+goto_buffer	_	0;"	f	class:view
+insert	_	0;"	f	class:table
+ipairs	_	0;"	f	
+kill	_	0;"	f	class:spawn_proc
+len	_	0;"	f	class:utf8
+lines	_	0;"	f	class:file
+load	_	0;"	f	
+loadfile	_	0;"	f	
+loadstring	_	0;"	f	
+maxn	_	0;"	f	class:table
+module	_	0;"	f	
+move	_	0;"	f	class:table
+next	_	0;"	f	
+offset	_	0;"	f	class:utf8
+pack	_	0;"	f	class:table
+pairs	_	0;"	f	
+pcall	_	0;"	f	
+print	_	0;"	f	
+quit	_	0;"	f	
+rawequal	_	0;"	f	
+rawget	_	0;"	f	
+rawlen	_	0;"	f	
+rawset	_	0;"	f	
+read	_	0;"	f	class:file
+read	_	0;"	f	class:io
+read	_	0;"	f	class:spawn_proc
+recent_files	_	0;"	t	class:io
+register	_	0;"	f	class:args
+reload_file	_	0;"	f	class:io
+remove	_	0;"	f	class:table
+require	_	0;"	f	
+reset	_	0;"	f	
+save_all_files	_	0;"	f	class:io
+save_file	_	0;"	f	class:io
+save_file_as	_	0;"	f	class:io
+seek	_	0;"	f	class:file
+select	_	0;"	f	
+setfenv	_	0;"	f	
+setfenv	_	0;"	f	class:debug
+sethook	_	0;"	f	class:debug
+setlocal	_	0;"	f	class:debug
+setmetatable	_	0;"	f	
+setmetatable	_	0;"	f	class:debug
+setupvalue	_	0;"	f	class:debug
+setuservalue	_	0;"	f	class:debug
+setvbuf	_	0;"	f	class:file
+size	_	0;"	F	class:view
+sort	_	0;"	f	class:table
+spawn	_	0;"	f	
+split	_	0;"	f	class:view
+status	_	0;"	f	class:spawn_proc
+stderr	_	0;"	F	class:io
+stdin	_	0;"	F	class:io
+stdout	_	0;"	F	class:io
+table	_	0;"	m	
+timeout	_	0;"	f	
+tmpfile	_	0;"	f	class:io
+tonumber	_	0;"	f	
+tostring	_	0;"	f	
+traceback	_	0;"	f	class:debug
+type	_	0;"	f	
+type	_	0;"	f	class:io
+unpack	_	0;"	f	
+unpack	_	0;"	f	class:table
+unsplit	_	0;"	f	class:view
+upvalueid	_	0;"	f	class:debug
+upvaluejoin	_	0;"	f	class:debug
+utf8	_	0;"	m	
+view	_	0;"	m	
+view	_	0;"	t	
+wait	_	0;"	f	class:spawn_proc
+write	_	0;"	f	class:file
+write	_	0;"	f	class:io
+write	_	0;"	f	class:spawn_proc
+xpcall	_	0;"	f	
