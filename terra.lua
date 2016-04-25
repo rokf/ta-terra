@@ -35,6 +35,8 @@ local string = token(l.STRING, sq_str + dq_str) +
 local lua_integer = P('-')^-1 * (l.hex_num + l.dec_num)
 local number = token(l.NUMBER, l.float + lua_integer)
 
+-- TODO Add those _ between numbers for integers in Terra ?
+
 -- Keywords.
 local keyword = token(l.KEYWORD, word_match{
   'and', 'break', 'do', 'else', 'elseif', 'end', 'false', 'for', 'function',
