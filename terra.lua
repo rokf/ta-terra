@@ -156,7 +156,6 @@ local library = token('library', word_match({
   'terralib.disas',
   'terralib.lookupsymbol',
   'terralib.lookupline',
-  'terralib.lookupline',
 }, '.'))
 
 -- Deprecated libraries.

@@ -193,14 +193,14 @@ status	_	0;"	f	class:spawn_proc
 stderr	_	0;"	F	class:io
 stdin	_	0;"	F	class:io
 stdout	_	0;"	F	class:io
+tmpfile	_	0;"	f	class:io
+type	_	0;"	f	class:io
 table	_	0;"	m	
 timeout	_	0;"	f	
-tmpfile	_	0;"	f	class:io
 tonumber	_	0;"	f	
 tostring	_	0;"	f	
 traceback	_	0;"	f	class:debug
 type	_	0;"	f	
-type	_	0;"	f	class:io
 unpack	_	0;"	f	
 unpack	_	0;"	f	class:table
 unsplit	_	0;"	f	class:view
@@ -213,4 +213,49 @@ wait	_	0;"	f	class:spawn_proc
 write	_	0;"	f	class:file
 write	_	0;"	f	class:io
 write	_	0;"	f	class:spawn_proc
-xpcall	_	0;"	f	
+xpcall	_	0;"	f
+global	_	0;"	f
+array	_	0;"	f
+arrayof	_	0;"	f
+vector	_	0;"	f
+vectorof	_	0;"	f
+constant	_	0;"	f
+macro	_	0;"	f
+symbol	_	0;"	f
+tuple	_	0;"	f
+terralib	_	0;"	m	
+newlist _	0;"	f	class:terralib
+islist _	0;"	f	class:terralib
+israwlist _	0;"	f	class:terralib
+isfunction _	0;"	f	class:terralib
+isconstant _	0;"	f	class:terralib
+ismacro _	0;"	f	class:terralib
+isquote _	0;"	f	class:terralib
+issymbol _	0;"	f	class:terralib
+issymbol _	0;"	f	class:terralib
+types _	0;"	t	class:terralib
+types.istype _	0;"	f	class:terralib
+types.newstruct _	0;"	f	class:terralib
+includecstring _	0;"	f	class:terralib
+includec _	0;"	f	class:terralib
+linklibrary _	0;"	f	class:terralib
+includepath _	0;"	F	class:terralib
+linkllvm _	0;"	f	class:terralib
+linkllvm _	0;"	f	class:terralib
+typeof _	0;"	f	class:terralib
+new _	0;"	f	class:terralib
+sizeof _	0;"	f	class:terralib
+offsetof _	0;"	f	class:terralib
+cast _	0;"	f	class:terralib
+load _	0;"	f	class:terralib
+loadstring _	0;"	f	class:terralib
+loadfile _	0;"	f	class:terralib
+saveobj _	0;"	f	class:terralib
+newtarget _	0;"	f	class:terralib
+constant _	0;"	f	class:terralib
+currenttimeinseconds _	0;"	f	class:terralib
+traceback _	0;"	f	class:terralib
+backtrace _	0;"	f	class:terralib
+disas _	0;"	f	class:terralib
+lookupsymbol _	0;"	f	class:terralib
+lookupline _	0;"	f	class:terralib
