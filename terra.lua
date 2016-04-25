@@ -41,7 +41,7 @@ local keyword = token(l.KEYWORD, word_match{
   'goto', 'if', 'in', 'local', 'nil', 'not', 'or', 'repeat', 'return', 'then',
   'true', 'until', 'while',
   -- adding stuff
-  'terra', 'var', 'struct'
+  'terra', 'var', 'struct', 'quote', 'import',
 })
 
 -- Functions.
@@ -53,7 +53,8 @@ local func = token(l.FUNCTION, word_match{
   -- Added in 5.2.
   'rawlen',
   -- terra
-  'global', 'array', 'arrayof', 'vector', 'vectorof',
+  'global', 'array', 'arrayof', 'vector', 'vectorof', 'constant',
+  'macro', 'symbol', 'tuple',
 })
 
 -- Deprecated functions.
@@ -120,6 +121,42 @@ local library = token('library', word_match({
   -- Debug added in 5.2.
   'debug.getuservalue', 'debug.setuservalue', 'debug.upvalueid',
   'debug.upvaluejoin',
+  -- Terra
+  'terralib',
+  'terralib.newlist',
+  'terralib.islist',
+  'terralib.israwlist',
+  'terralib.isfunction',
+  'terralib.isconstant',
+  'terralib.ismacro',
+  'terralib.isquote',
+  'terralib.issymbol',
+  'terralib.types.istype',
+  'terralib.types.newstruct',
+  'terralib.includecstring',
+  'terralib.includec',
+  'terralib.includepath', -- variable not function
+  'terralib.linklibrary',
+  'terralib.linkllvm',
+  'terralib.typeof',
+  'terralib.new',
+  'terralib.sizeof',
+  'terralib.offsetof',
+  'terralib.cast',
+  'terralib.load',
+  'terralib.loadstring',
+  'terralib.loadfile',
+  'terralib.saveobj',
+  'terralib.newtarget',
+  'terralib.constant',
+  -- Debugging
+  'terralib.currenttimeinseconds',
+  'terralib.traceback',
+  'terralib.backtrace',
+  'terralib.disas',
+  'terralib.lookupsymbol',
+  'terralib.lookupline',
+  'terralib.lookupline',
 }, '.'))
 
 -- Deprecated libraries.
@@ -142,7 +179,7 @@ local deprecated_library = token('deprecated_library', word_match({
 }, '.'))
 
 -- Types
-local type = token(l.TYPE, word_match{
+local typet = token(l.TYPE, word_match{
   'int', 'int8', 'int16', 'int32', 'int64',
   'uint', 'uint8', 'uint16', 'uint32', 'uint64',
   'bool', 'float', 'double'
@@ -169,6 +206,7 @@ M._rules = {
   {'number', number},
   {'label', label},
   {'operator', operator},
+  {'type', typet}
 }
 
 M._tokenstyles = {
