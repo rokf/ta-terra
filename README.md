@@ -1,11 +1,13 @@
-Textadept modules for Terra(http://terralang.org/).
+# Textadept Terra
 
-####Including:
+A module for the [Terra](http://terralang.org/) programming language
+
+#### Includes
 - lexer (built upon the `lua` lexer)
 - autocomplete via *fake* `ctags`
 - docs via Textadept `api` files
 
-####Installation
+#### Installation
 
 Copy the `terra.lua` file to your `lexers` folder.
 
@@ -22,4 +24,4 @@ On Linux: `~/.textadept/modules/`
 
 The files have to be in `~/.textadept/modules/terra/` for example.
 
-In your main `init.lua` file do `require('terra')` and you are done.
+In your main `init.lua` file do `require('terra')` and you're done.
